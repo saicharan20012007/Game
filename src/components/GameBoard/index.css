@@ -1,0 +1,39 @@
+.main-heading-wp{
+    margin-top:30px;
+    color:black;
+    font-family: Roboto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.score-timer{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+    margin-left:50px;
+    margin-right:50px;
+}
+.des{
+    color: black;
+    font-family: Roboto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.tiles-container{
+    border-style:solid;
+    margin-left:50px;
+    margin-right:50px;
+    display: flex;
+    flex-direction: column;
+}
+.tiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.user-name{
+    text-align: right;
+}

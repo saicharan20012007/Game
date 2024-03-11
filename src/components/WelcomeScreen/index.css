@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.welcome-screen{
+    margin:10px;
+    border-style:solid;
+    border-color:black;
+    height:50vh;
+}
+.main-heading-wp{
+    margin-top:30px;
+    color:black;
+    font-family: Roboto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.welcome-page-container{
+    border-style:solid;
+    margin:40px;
+    display: flex;
+    flex-direction: column;
+    height:50vh;
+    padding-top:80px;
+}
+.input-box{
+    border-style: solid;
+    width:300px;
+    align-self: center;
+    height:40px;
+    border-color:black;
+    border-width: 3px;
+    border-radius: 7px;
+    font-size:20px;
+}
+.start-btn{
+    background-color:rgb(12, 138, 233);
+    margin:20px;
+    cursor:pointer;
+    width:200px;
+    height:40px;
+    border-width: 0px;
+    border-style: none;
+    color:white;
+    font-family: Roboto;
+    font-weight: bold;
+    border-radius: 7px;
+    align-self: center;
+}
